@@ -10,10 +10,10 @@
 hole_diam = 21;
 // Depth of the hole
 hole_depth = 2.3;
-// Diameter of the cable relief {larger for more cables}
-cable_relief = 5;
+// Diameter of the cable relief (larger for more cables)
+cable_relief = 5; // [2:0.5:10]
 // Thickness of the lid
-thickness = 1.5;
+thickness = 1.5; // [1:0.5:4]
 
 /* [Hidden] */
 eps = 0.01;
