@@ -5,11 +5,17 @@
 // are used, as it is not necessary to have such a large gap.
 // Units are in mm
 
-// Dimensions
+/* [Dimensions] */
+// Diameter of the hole
 hole_diam = 21;
+// Depth of the hole
 hole_depth = 2.3;
+// Diameter of the cable relief {larger for more cables}
 cable_relief = 5;
+// Thickness of the lid
 thickness = 1.5;
+
+/* [Hidden] */
 eps = 0.01;
 
 module body() {
